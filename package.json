@@ -1,0 +1,16 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "FaizRozaqi <faiz.m.rozaqi@gdplabs.id>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1"
+  },
+  "scripts": {
+    "runApp": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "serverOn": "live-server public",
+    "runPlayground": "babel src/playground/build-it-visible.js --out-file=public/scripts/app.js --presets=env,react --watch"
+  }
+}
